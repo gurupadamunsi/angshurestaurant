@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Saffron Table</title>
+  <meta name="description" content="Contact Saffron Table for directions, opening hours, takeaway orders and general enquiries.">
+  <meta name="theme-color" content="#17130f">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif'],display:['Playfair Display','Georgia','serif']},colors:{ink:'#17130f',cream:'#f8f4ed',gold:'#c9944a',muted:'#71695f'}}}};</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-cream text-ink">
+<div id="site-header"></div>
+<main>
+  <section class="bg-ink px-5 pb-16 pt-32 text-white sm:px-8 lg:px-12"><div class="mx-auto max-w-7xl reveal"><p class="eyebrow !text-gold">Get in touch</p><h1 class="font-display text-5xl sm:text-7xl">Come say <em>hello.</em></h1></div></section>
+  <section class="section-pad"><div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.8fr_1.2fr]">
+    <div class="reveal"><p class="eyebrow">Restaurant details</p><h2 class="section-title text-4xl">We'd love to<br><em>serve you.</em></h2>
+      <div class="mt-9 space-y-7">
+        <div><p class="label">Address</p><p class="mt-1 text-muted">Main Market Road, Your Town, West Bengal</p></div>
+        <div><p class="label">Phone</p><a data-phone href="#" class="mt-1 inline-block text-muted hover:text-ink">+91 90000 00000</a></div>
+        <div><p class="label">Hours</p><p class="mt-1 text-muted">Every day · 11:00 AM – 10:30 PM</p></div>
+      </div>
+      <div class="mt-9 flex flex-col gap-3 sm:flex-row"><a data-whatsapp href="#" class="btn-primary">WhatsApp us</a><a data-phone href="#" class="btn-dark">Call now</a></div>
+    </div>
+    <div class="overflow-hidden rounded-2xl bg-white shadow-sm reveal">
+      <iframe title="Restaurant location map" class="h-[430px] w-full border-0" loading="lazy"
+        src="https://www.google.com/maps?q=Kolkata,West+Bengal,India&output=embed"></iframe>
+      <div class="flex flex-col gap-3 p-5 sm:flex-row sm:items-center sm:justify-between"><div><strong>Find us on Google Maps</strong><p class="mt-1 text-sm text-muted">Replace the map location before launch.</p></div><a href="https://www.google.com/maps/search/?api=1&query=Kolkata%2C%20West%20Bengal%2C%20India" target="_blank" rel="noopener" class="link-arrow">Open Maps ↗</a></div>
+    </div>
+  </div></section>
+  <section class="bg-[#ede5d9] py-16"><div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12"><div class="grid gap-6 sm:grid-cols-3">
+    <a data-whatsapp href="#" class="contact-card"><span>01</span><strong>Order</strong><p>Message us on WhatsApp for takeaway.</p></a>
+    <a data-phone href="#" class="contact-card"><span>02</span><strong>Call</strong><p>Speak directly with the restaurant.</p></a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Kolkata%2C%20West%20Bengal%2C%20India" target="_blank" rel="noopener" class="contact-card"><span>03</span><strong>Directions</strong><p>Open Google Maps and get directions.</p></a>
+  </div></div></section>
+</main>
+<div id="site-footer"></div><script src="assets/js/app.js"></script>
+</body></html>
