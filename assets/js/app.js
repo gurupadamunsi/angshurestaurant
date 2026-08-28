@@ -33,6 +33,6 @@ toggle?.addEventListener("click",()=>{const open=!mobile.classList.contains("hid
 mobile?.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{mobile.classList.add("hidden");toggle?.setAttribute("aria-expanded","false")}));
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")}),{threshold:.12});
 document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
-const current=location.pathname.split("/").pop()||"index.html";
+const current=location.pathname.split("/").pop()||"/";
 document.querySelectorAll(".nav-link").forEach(a=>{if(a.getAttribute("href")===current)a.classList.add("text-gold")});
 });
