@@ -1,0 +1,238 @@
+html{scroll-behavior:smooth}body{font-family:Inter,ui-sans-serif,system-ui,sans-serif}.font-display{font-family:"Playfair Display",Georgia,serif}em{font-style:italic}.section-pad{padding:5.5rem 1.25rem}@media(min-width:640px){.section-pad{padding:7rem 2rem}}@media(min-width:1024px){.section-pad{padding:8rem 3rem}}.eyebrow{font-size:.7rem;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:#71695f}.section-title{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2.5rem,5vw,4.5rem);line-height:1.02}.btn-primary,.btn-secondary,.btn-dark{display:inline-flex;align-items:center;justify-content:center;gap:.75rem;border-radius:999px;padding:.9rem 1.25rem;font-size:.78rem;font-weight:700;letter-spacing:.04em;transition:transform .2s ease,background .2s ease}.btn-primary{background:#c9944a;color:#17130f}.btn-primary:hover,.btn-dark:hover,.btn-secondary:hover{transform:translateY(-2px)}.btn-secondary{border:1px solid rgba(255,255,255,.35);color:white;background:rgba(255,255,255,.08);backdrop-filter:blur(8px)}.btn-dark{background:#17130f;color:#fff}.link-arrow{align-items:center;gap:.6rem;font-size:.78rem;font-weight:700}.link-arrow span{transition:transform .2s}.link-arrow:hover span{transform:translate(3px,-3px)}.gallery-img{width:100%;height:220px;object-fit:cover;border-radius:1rem}.label{font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.contact-card{display:flex;min-height:180px;flex-direction:column;justify-content:space-between;border-radius:1rem;background:#fff;padding:1.5rem;transition:transform .2s,box-shadow .2s}.contact-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(23,19,15,.08)}.contact-card span{font-size:.72rem;color:#c9944a}.contact-card strong{font-family:"Playfair Display",Georgia,serif;font-size:1.8rem}.contact-card p{font-size:.85rem;line-height:1.6;color:#71695f}.menu-card{overflow:hidden;border-radius:1rem;background:#fff;box-shadow:0 8px 30px rgba(23,19,15,.05)}.menu-card img{height:220px;width:100%;object-fit:cover}.menu-card-body{padding:1.1rem}.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.btn-primary,.btn-secondary,.btn-dark{transition:none}}
+.nav-link{font-size:.76rem;font-weight:600;color:rgba(255,255,255,.68);transition:color .2s}.nav-link:hover{color:#c9944a}.mobile-link{display:block;border-bottom:1px solid rgba(255,255,255,.08);padding:1rem 0;font-size:.9rem;color:rgba(255,255,255,.8)}.category-btn{white-space:nowrap;border:1px solid rgba(23,19,15,.12);border-radius:999px;padding:.55rem .9rem;font-size:.72rem;font-weight:700;color:#71695f;transition:.2s}.category-btn:hover,.category-btn.active{border-color:#17130f;background:#17130f;color:#fff}.menu-section{scroll-margin-top:135px}
+
+/* =========================================================
+   ANGSHU — MODERN RESPONSIVE HERO
+   Only affects the homepage hero
+========================================================= */
+
+.angshu-hero{
+  position:relative;
+  min-height:88vh;
+  background:
+    radial-gradient(circle at 86% 42%, rgba(201,148,74,.16), transparent 28%),
+    linear-gradient(135deg,#f8f4ed 0%,#f5eee4 52%,#eee1d1 100%);
+  color:#17130f;
+}
+
+.angshu-hero-orb{
+  position:absolute;
+  border-radius:50%;
+  pointer-events:none;
+  filter:blur(1px);
+}
+.orb-a{
+  width:420px;height:420px;right:-190px;top:-140px;
+  background:rgba(201,148,74,.09);
+}
+.orb-b{
+  width:300px;height:300px;left:-180px;bottom:-180px;
+  background:rgba(154,104,73,.07);
+}
+
+.angshu-eyebrow{
+  display:flex;align-items:center;gap:12px;
+  font-size:10px;font-weight:800;letter-spacing:.28em;
+  color:#a96748;text-transform:uppercase;
+}
+.angshu-eyebrow span{width:34px;height:1px;background:#c9944a}
+
+.angshu-hero-title{
+  margin-top:24px;
+  max-width:720px;
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:clamp(4rem,7.3vw,7.5rem);
+  line-height:.88;
+  letter-spacing:-.055em;
+  font-weight:600;
+}
+.angshu-hero-title em{color:#a96748;font-style:italic}
+
+.angshu-hero-text{
+  max-width:535px;margin-top:28px;
+  font-size:16px;line-height:1.8;color:rgba(48,45,39,.67);
+}
+
+.angshu-hero-actions{
+  display:flex;flex-wrap:wrap;gap:12px;margin-top:31px;
+}
+.angshu-whatsapp-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:50px;padding:0 25px;border-radius:999px;
+  border:1px solid rgba(23,19,15,.2);
+  background:rgba(255,255,255,.58);
+  color:#17130f;font-size:11px;font-weight:800;
+  letter-spacing:.04em;text-transform:uppercase;
+  backdrop-filter:blur(12px);
+  transition:.3s ease;
+}
+.angshu-whatsapp-btn:hover{
+  transform:translateY(-3px);
+  background:#17130f;color:#fff;
+}
+
+.angshu-hero-meta{
+  display:flex;flex-wrap:wrap;gap:20px;
+  margin-top:28px;font-size:10px;color:rgba(23,19,15,.48);
+}
+
+.angshu-food-stage{
+  width:100%;max-width:650px;margin-left:auto;
+  min-height:570px;display:grid;place-items:center;
+  animation:angshuFoodEnter 1s .12s cubic-bezier(.2,.8,.2,1) both;
+}
+
+.angshu-food-card{
+  position:relative;width:min(100%,590px);
+  aspect-ratio:1/.9;
+  overflow:hidden;
+  border-radius:45% 45% 28% 28% / 38% 38% 24% 24%;
+  transform:rotate(2deg);
+  background:#d4c2aa;
+  box-shadow:0 38px 90px rgba(35,26,18,.17);
+}
+.angshu-food-card img{
+  width:100%;height:100%;object-fit:cover;
+  object-position:center;
+  transform:scale(1.035);
+  filter:saturate(.98) contrast(1.04);
+  transition:transform 1.2s cubic-bezier(.2,.8,.2,1);
+}
+.angshu-food-stage:hover .angshu-food-card img{transform:scale(1.09)}
+
+.angshu-food-shine{
+  position:absolute;inset:0;
+  background:linear-gradient(120deg,rgba(255,255,255,.2),transparent 35%,rgba(20,15,10,.28));
+  pointer-events:none;
+}
+.angshu-food-caption{
+  position:absolute;left:24px;right:24px;bottom:20px;
+  display:flex;align-items:end;justify-content:space-between;
+  color:#fff;z-index:2;
+}
+.angshu-food-caption span{
+  font-size:8px;font-weight:800;letter-spacing:.24em;
+}
+.angshu-food-caption strong{
+  font-family:"Playfair Display",Georgia,serif;
+  font-size:20px;font-weight:500;
+}
+
+.angshu-orbit{
+  position:absolute;border:1px solid rgba(169,103,72,.18);
+  border-radius:50%;pointer-events:none;
+}
+.orbit-a{
+  inset:4% -2% 4% -8%;
+  animation:angshuSpin 25s linear infinite;
+}
+.orbit-b{
+  inset:-6% 8% -8% 5%;
+  border-color:rgba(201,148,74,.24);
+  animation:angshuSpinReverse 18s linear infinite;
+}
+
+.angshu-food-shadow{
+  position:absolute;width:62%;height:8%;
+  bottom:12%;right:11%;border-radius:50%;
+  background:rgba(47,32,19,.18);filter:blur(20px);
+  transform:rotate(-3deg);
+}
+
+.angshu-logo-float{
+  position:absolute;z-index:10;
+  left:-10px;bottom:12%;
+  width:116px;height:116px;padding:7px;
+  border-radius:50%;
+  background:#f8f4ed;
+  border:1px solid rgba(169,103,72,.3);
+  box-shadow:0 18px 45px rgba(31,22,14,.15);
+  animation:angshuLogoFloat 5s ease-in-out infinite;
+}
+.angshu-logo-float img{
+  width:100%;height:100%;border-radius:50%;
+  object-fit:cover;
+}
+
+.angshu-food-tag{
+  position:absolute;z-index:12;
+  display:flex;align-items:center;gap:9px;
+  padding:10px 13px;background:rgba(255,255,255,.9);
+  border:1px solid rgba(23,19,15,.09);
+  box-shadow:0 15px 35px rgba(31,22,14,.1);
+  backdrop-filter:blur(12px);
+  animation:angshuTagFloat 4.5s ease-in-out infinite;
+}
+.angshu-food-tag b{
+  font-size:8px;color:#c9944a;
+}
+.angshu-food-tag span{
+  display:flex;flex-direction:column;
+  font-size:7px;line-height:1.35;letter-spacing:.13em;color:#81796e;
+}
+.angshu-food-tag strong{font-size:8px;color:#17130f}
+.tag-one{right:-5px;top:12%}
+.tag-two{left:-5px;bottom:25%;animation-delay:-2s}
+.tag-two i{
+  width:7px;height:7px;border-radius:50%;background:#c9944a;
+  box-shadow:0 0 0 5px rgba(201,148,74,.12);
+}
+
+@keyframes angshuFoodEnter{
+  from{opacity:0;transform:translateY(35px) scale(.96)}
+  to{opacity:1;transform:none}
+}
+@keyframes angshuSpin{to{transform:rotate(360deg)}}
+@keyframes angshuSpinReverse{to{transform:rotate(-360deg)}}
+@keyframes angshuLogoFloat{
+  0%,100%{transform:translateY(0) rotate(-8deg)}
+  50%{transform:translateY(-9px) rotate(-4deg)}
+}
+@keyframes angshuTagFloat{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-8px)}
+}
+
+@media(max-width:1024px){
+  .angshu-food-stage{min-height:500px}
+  .angshu-hero-title{font-size:clamp(3.7rem,8vw,6rem)}
+  .angshu-logo-float{left:0}
+  .tag-one{right:0}.tag-two{left:0}
+}
+
+@media(max-width:767px){
+  .angshu-hero{min-height:auto}
+  .angshu-hero-title{
+    font-size:clamp(3.55rem,16.5vw,5rem);
+    line-height:.88;
+  }
+  .angshu-hero-text{font-size:14px;line-height:1.75}
+  .angshu-hero-actions{flex-direction:column;max-width:330px}
+  .angshu-hero-actions .btn-primary,
+  .angshu-whatsapp-btn{width:100%}
+  .angshu-hero-meta{font-size:9px;gap:10px 18px}
+  .angshu-food-stage{
+    min-height:390px;
+    margin:4px auto 15px;
+  }
+  .angshu-food-card{
+    width:94%;
+    aspect-ratio:1/.92;
+  }
+  .angshu-logo-float{
+    width:82px;height:82px;
+    bottom:7%;left:1%;
+  }
+  .angshu-food-tag{padding:8px 10px}
+  .tag-one{right:0;top:6%}
+  .tag-two{left:0;bottom:13%}
+  .angshu-food-caption{left:17px;right:17px;bottom:15px}
+  .angshu-food-caption strong{font-size:16px}
+  .angshu-orbit{opacity:.65}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .angshu-food-stage,.angshu-logo-float,.angshu-food-tag,
+  .angshu-orbit{animation:none!important}
+  .angshu-food-card img{transition:none}
+}
