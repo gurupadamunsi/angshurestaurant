@@ -1,5 +1,5 @@
-const restaurant={name:"Angshu",phone:"+919000000000",displayPhone:"+91 90000 00000",whatsapp:"+919000000000",address:"Main Market Road, Your Town, West Bengal",hours:"Every day · 11:00 AM – 10:30 PM"};
-const restaurant2={name:"Angshu Restaurant"};
+const restaurant={name:"Angshu",phone:"+919000000000",displayPhone:"+91 90000 00000",whatsapp:"+919000000000",address:"Main Market Road, Your Town, West Bengal",hours:"Every day · 10:30 AM – 10:30 PM"};
+const restaurant2={name:"Angshu Bar Cum Restaurant"};
 
 function header(){
 return `<header class="fixed inset-x-0 top-0 z-50 border-b border-black/10 bg-[#f8f4ed]/95 text-ink backdrop-blur-xl">
@@ -15,8 +15,8 @@ return `<header class="fixed inset-x-0 top-0 z-50 border-b border-black/10 bg-[#
       ${restaurant.name}
     </strong>
 
-    <small class="mt-1 text-[8px] font-semibold uppercase tracking-[0.28em] text-gold sm:text-[9px] sm:tracking-[0.32em]">
-      Restaurant
+    <small class="mt-0.5 text-[8px] font-semibold uppercase tracking-[0.28em] text-gold sm:text-[9px] sm:tracking-[0.32em]">
+      BAR CUM RESTAURANT
     </small>
   </span>
 
@@ -40,8 +40,8 @@ return `<footer class="bg-ink px-5 py-12 text-white sm:px-8 lg:px-12"><div class
     ${restaurant.name}
   </strong>
 
-  <small class="mt-1 text-[9px] font-semibold uppercase tracking-[0.32em] text-gold">
-    Restaurant
+  <small class="mt-0.5 text-[9px] font-semibold uppercase tracking-[0.32em] text-gold">
+    BAR CUM RESTAURANT
   </small>
 </div>
 
