@@ -1,4 +1,4 @@
-const restaurant={name:"Angshu",phone:"+919000000000",displayPhone:"+91 90000 00000",whatsapp:"+919000000000",address:"Main Market Road, Your Town, West Bengal",hours:"Every day · 10:30 AM – 10:30 PM"};
+const restaurant={name:"Angshu",phone:"+91 95475 26083",displayPhone:"+91 95475 26083",whatsapp:"+91 9547526083",address:"Mahatpur, Panskura, West Bengal 721139",hours:"Every day · 10:30 AM – 10:30 PM"};
 const restaurant2={name:"Angshu Bar Cum Restaurant"};
 
 function header(){
