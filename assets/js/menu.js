@@ -1,28 +1,37 @@
 const menuData=[
-{category:"Starters",items:[
-["Crispy Corn Chaat","Sweet corn, herbs and light spices","₹180","https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"],
-["Paneer Tikka","Charred cottage cheese, peppers and onion","₹240","./assets/images/paneer-tikka.jpg"],
-["Chicken Seekh Kebab","Minced chicken, herbs and house spices","₹280","https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=80"]
+{category:"Sannks",items:[
+["Chicken Pakoda","Crispy chicken pieces seasoned with aromatic spices","₹180","./assets/images/chicken-pokoda-1.jpg"],
+["Poneer Pakoda","Crispy paneer fritters with a light spiced coating","₹160","./assets/images/poneer-pakoda.jpg"],
+["Fish Pakoda","Crispy fish bites seasoned with Indian spices","₹200","./assets/images/fish-pokoda.jpg"],
+["Moshroom Pakoda","Crispy mushrooms with a mildly spiced coating","₹140","./assets/images/moshroom-pakoda.jpg"],
+["Fish Finger","Golden fried fish fingers served crisp and tender","₹200","./assets/images/fish-finger.jpg"],
+["Veg Pakoda","Crispy mixed vegetable fritters with light spices","₹280","./assets/images/veg-pakoda.jpg"]
 
 ]},
 {category:"Tandoor",items:[
-["Chicken Tikka","Boneless chicken marinated in yoghurt and spices","₹320","https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=80"],
-["Tandoori Chicken","Half chicken roasted with aromatic spices","₹360","https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=80"],
-["Garlic Naan","Soft naan finished with garlic and butter","₹90","https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=80"]
+["Chicken Tikka","Tender chicken pieces marinated with yoghurt and spices","₹320","./assets/images/chicken-tikka.jpg"],
+["Tandoori Chicken","Juicy chicken roasted with aromatic tandoori spices","₹360","./assets/images/tandoori-chicken.jpg"],
+["Chicken Lgg Kabab","Juicy chicken leg grilled with traditional spices","₹90","./assets/images/chicken-lgg-kabab.jpg"],
+["Chicken Shik Kabab","Minced chicken kebab blended with herbs and spices","₹90","./assets/images/chicken-shik-kabab.jpg"],
+["Poneer Tikka","Grilled paneer with peppers, onion and mild spices","₹90","./assets/images/poneer-tikka.jpg"],
+["Moshroom Tikka","Grilled mushrooms marinated with aromatic spices","₹90","./assets/images/moshroom-tikka.jpg"]
 ]},
 {category:"Biryani",items:[
-["Chicken Biryani","Fragrant basmati rice, chicken and saffron","₹280","./assets/images/chicken-biryani-5.jpg"],
-["Mutton Biryani","Slow-cooked mutton with aromatic rice","₹360","./assets/images/mutton-biryani.jpg"],
-["Veg Biryani","Seasonal vegetables, herbs and fragrant rice","₹220","./assets/images/veg-biryani.jpg"]
+["Chicken Biryani","Fragrant basmati rice layered with tender chicken and spices","₹280","./assets/images/chicken-biryani-5.jpg"],
+["Mutton Biryani","Aromatic basmati rice cooked with tender mutton and spices","₹360","./assets/images/mutton-biryani.jpg"],
+["Veg Biryani","Fragrant basmati rice cooked with fresh seasonal vegetables","₹220","./assets/images/veg-biryani.jpg"]
 ]},
-{category:"Mains",items:[
-["Butter Chicken","Creamy tomato gravy with tandoor chicken","₹320","https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=80"],
-["Kadai Paneer","Paneer, peppers and tomato in kadai masala","₹270","https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=900&q=80"],
-["Dal Makhani","Slow-cooked black lentils with butter","₹220","https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=80"]
+{category:"Chinese",items:[
+["Chicken Garlic","Tender chicken tossed with garlic and Chinese-style spices","₹320","./assets/images/chicken-garlic.jpg"],
+["Chicken Chlly","Crispy chicken tossed with peppers, onion and chilli","₹270","./assets/images/chicken-chlly.jpg"],
+["Fish Chlly","Crispy fish cooked with chilli, peppers and onion","₹220","./assets/images/fish-chlly.jpg"],
+["Chicken 65","Crispy spicy chicken bites with a South Indian touch","₹320","./assets/images/chicken-65.jpg"],
+["Chicken Lolipop","Crispy chicken lollipop tossed in a spicy sauce","₹320","./assets/images/chicken lolipop.jpg"],
+["Moshroom Chlly","Mushrooms tossed with chilli, peppers and onion","₹320","./assets/images/moshroom-chlly.jpg"]
 ]},
 {category:"Desserts",items:[
-["Gulab Jamun","Warm milk dumplings with fragrant syrup","₹120","./assets/images/gulab-jamun.jpg"],
-["Kesar Kulfi","Traditional saffron and pistachio frozen dessert","₹140","./assets/images/kesar-kulfi.jpg"],
+["Gulab Jamun","Soft milk dumplings soaked in warm fragrant syrup","₹120","./assets/images/gulab-jamun.jpg"],
+["Kesar Kulfi","Creamy traditional kulfi infused with saffron and pistachio","₹140","./assets/images/kesar-kulfi.jpg"],
 ]}
 ];
 document.addEventListener("DOMContentLoaded",()=>{
