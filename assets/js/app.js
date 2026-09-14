@@ -55,7 +55,11 @@ document.addEventListener("DOMContentLoaded",()=>{
 document.getElementById("site-header").innerHTML=header();
 document.getElementById("site-footer").innerHTML=footer();
 document.querySelectorAll("[data-phone]").forEach(a=>{a.href=`tel:${restaurant.phone}`});
-document.querySelectorAll("[data-whatsapp]").forEach(a=>{a.href=`https://wa.me/${restaurant.whatsapp.replace("+","")}?text=${encodeURIComponent("Hello! I would like to place an order.")}`;a.target="_blank";a.rel="noopener"});
+document.querySelectorAll("[data-whatsapp]").forEach(a => {
+    a.href = "https://wa.me/919547526083?text=" + encodeURIComponent("Hello Angshu Bar Cum Restaurant, I would like to place an order.");
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+});
 const toggle=document.getElementById("menu-toggle"),mobile=document.getElementById("mobile-menu");
 toggle?.addEventListener("click",()=>{const open=!mobile.classList.contains("hidden");mobile.classList.toggle("hidden",open);toggle.setAttribute("aria-expanded",String(!open));toggle.querySelector("span").textContent=open?"☰":"✕"});
 mobile?.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{mobile.classList.add("hidden");toggle?.setAttribute("aria-expanded","false")}));
