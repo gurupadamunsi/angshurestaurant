@@ -3,6 +3,7 @@ const menuData=[
 ["Crispy Corn Chaat","Sweet corn, herbs and light spices","₹180","https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"],
 ["Paneer Tikka","Charred cottage cheese, peppers and onion","₹240","https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=80"],
 ["Chicken Seekh Kebab","Minced chicken, herbs and house spices","₹280","https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=80"]
+
 ]},
 {category:"Tandoor",items:[
 ["Chicken Tikka","Boneless chicken marinated in yoghurt and spices","₹320","https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=80"],
@@ -10,9 +11,9 @@ const menuData=[
 ["Garlic Naan","Soft naan finished with garlic and butter","₹90","https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=80"]
 ]},
 {category:"Biryani",items:[
-["Chicken Biryani","Fragrant basmati rice, chicken and saffron","₹280","https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=900&q=80"],
-["Mutton Biryani","Slow-cooked mutton with aromatic rice","₹360","https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=900&q=80"],
-["Veg Biryani","Seasonal vegetables, herbs and fragrant rice","₹220","https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80"]
+["Chicken Biryani","Fragrant basmati rice, chicken and saffron","₹280","./assets/images/chicken-biryani-5.jpg"],
+["Mutton Biryani","Slow-cooked mutton with aromatic rice","₹360","./assets/images/mutton-biryani.jpg"],
+["Veg Biryani","Seasonal vegetables, herbs and fragrant rice","₹220","./assets/images/veg-biryani.jpg"]
 ]},
 {category:"Mains",items:[
 ["Butter Chicken","Creamy tomato gravy with tandoor chicken","₹320","https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=80"],
@@ -20,8 +21,8 @@ const menuData=[
 ["Dal Makhani","Slow-cooked black lentils with butter","₹220","https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=80"]
 ]},
 {category:"Desserts",items:[
-["Gulab Jamun","Warm milk dumplings with fragrant syrup","₹120","https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"],
-["Kesar Kulfi","Traditional saffron and pistachio frozen dessert","₹140","https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=80"]
+["Gulab Jamun","Warm milk dumplings with fragrant syrup","₹120","./assets/images/gulab-jamun.jpg"],
+["Kesar Kulfi","Traditional saffron and pistachio frozen dessert","₹140","./assets/images/kesar-kulfi.jpg"],
 ]}
 ];
 document.addEventListener("DOMContentLoaded",()=>{
