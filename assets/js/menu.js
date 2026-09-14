@@ -5,33 +5,33 @@ const menuData=[
 ["Fish Pakoda","Crispy fish bites seasoned with Indian spices","₹200","./assets/images/fish-pokoda.jpg"],
 ["Moshroom Pakoda","Crispy mushrooms with a mildly spiced coating","₹140","./assets/images/moshroom-pakoda.jpg"],
 ["Fish Finger","Golden fried fish fingers served crisp and tender","₹200","./assets/images/fish-finger.jpg"],
-["Veg Pakoda","Crispy mixed vegetable fritters with light spices","₹280","./assets/images/veg-pakoda.jpg"]
+["Veg Pakoda","Crispy mixed vegetable fritters with light spices","₹140","./assets/images/veg-pakoda.jpg"]
 
 ]},
 {category:"Tandoor",items:[
-["Chicken Tikka","Tender chicken pieces marinated with yoghurt and spices","₹320","./assets/images/chicken-tikka.jpg"],
-["Tandoori Chicken","Juicy chicken roasted with aromatic tandoori spices","₹360","./assets/images/tandoori-chicken.jpg"],
-["Chicken Lgg Kabab","Juicy chicken leg grilled with traditional spices","₹90","./assets/images/chicken-lgg-kabab.jpg"],
-["Chicken Shik Kabab","Minced chicken kebab blended with herbs and spices","₹90","./assets/images/chicken-shik-kabab.jpg"],
-["Poneer Tikka","Grilled paneer with peppers, onion and mild spices","₹90","./assets/images/poneer-tikka.jpg"],
-["Moshroom Tikka","Grilled mushrooms marinated with aromatic spices","₹90","./assets/images/moshroom-tikka.jpg"]
+["Chicken Tikka","Tender chicken pieces marinated with yoghurt and spices","₹180","./assets/images/chicken-tikka.jpg"],
+["Tandoori Chicken","Juicy chicken roasted with aromatic tandoori spices","₹240","./assets/images/tandoori-chicken.jpg"],
+["Chicken Lgg Kabab","Juicy chicken leg grilled with traditional spices","₹120","./assets/images/chicken-lgg-kabab.jpg"],
+["Chicken Shik Kabab","Minced chicken kebab blended with herbs and spices","₹200","./assets/images/chicken-shik-kabab.jpg"],
+["Poneer Tikka","Grilled paneer with peppers, onion and mild spices","₹260","./assets/images/poneer-tikka.jpg"],
+["Moshroom Tikka","Grilled mushrooms marinated with aromatic spices","₹200","./assets/images/moshroom-tikka.jpg"]
 ]},
 {category:"Biryani",items:[
-["Chicken Biryani","Fragrant basmati rice layered with tender chicken and spices","₹280","./assets/images/chicken-biryani-5.jpg"],
+["Chicken Biryani","Fragrant basmati rice layered with tender chicken and spices","₹150","./assets/images/chicken-biryani-5.jpg"],
 ["Mutton Biryani","Aromatic basmati rice cooked with tender mutton and spices","₹360","./assets/images/mutton-biryani.jpg"],
-["Veg Biryani","Fragrant basmati rice cooked with fresh seasonal vegetables","₹220","./assets/images/veg-biryani.jpg"]
+["Veg Biryani","Fragrant basmati rice cooked with fresh seasonal vegetables","₹110","./assets/images/veg-biryani.jpg"]
 ]},
 {category:"Chinese",items:[
-["Chicken Garlic","Tender chicken tossed with garlic and Chinese-style spices","₹320","./assets/images/chicken-garlic.jpg"],
-["Chicken Chlly","Crispy chicken tossed with peppers, onion and chilli","₹270","./assets/images/chicken-chlly.jpg"],
+["Chicken Garlic","Tender chicken tossed with garlic and Chinese-style spices","₹200","./assets/images/chicken-garlic.jpg"],
+["Chicken Chlly","Crispy chicken tossed with peppers, onion and chilli","₹150","./assets/images/chicken-chlly.jpg"],
 ["Fish Chlly","Crispy fish cooked with chilli, peppers and onion","₹220","./assets/images/fish-chlly.jpg"],
-["Chicken 65","Crispy spicy chicken bites with a South Indian touch","₹320","./assets/images/chicken-65.jpg"],
-["Chicken Lolipop","Crispy chicken lollipop tossed in a spicy sauce","₹320","./assets/images/chicken lolipop.jpg"],
-["Moshroom Chlly","Mushrooms tossed with chilli, peppers and onion","₹320","./assets/images/moshroom-chlly.jpg"]
+["Chicken 65","Crispy spicy chicken bites with a South Indian touch","₹270","./assets/images/chicken-65.jpg"],
+["Chicken Lolipop","Crispy chicken lollipop tossed in a spicy sauce","₹210","./assets/images/chicken lolipop.jpg"],
+["Moshroom Chlly","Mushrooms tossed with chilli, peppers and onion","₹180","./assets/images/moshroom-chlly.jpg"]
 ]},
 {category:"Desserts",items:[
-["Gulab Jamun","Soft milk dumplings soaked in warm fragrant syrup","₹120","./assets/images/gulab-jamun.jpg"],
-["Kesar Kulfi","Creamy traditional kulfi infused with saffron and pistachio","₹140","./assets/images/kesar-kulfi.jpg"],
+["Gulab Jamun","Soft milk dumplings soaked in warm fragrant syrup","₹60","./assets/images/gulab-jamun.jpg"],
+["Kesar Kulfi","Creamy traditional kulfi infused with saffron and pistachio","₹50","./assets/images/kesar-kulfi.jpg"],
 ]}
 ];
 document.addEventListener("DOMContentLoaded",()=>{
