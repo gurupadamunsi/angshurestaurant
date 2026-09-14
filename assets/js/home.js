@@ -1,8 +1,8 @@
 const featured=[
-{name:"Smoky Chicken Tikka",category:"Tandoor",price:"₹320",image:"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=80"},
-{name:"Royal Chicken Biryani",category:"Biryani",price:"₹280",image:"https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=900&q=80"},
-{name:"Paneer Tikka",category:"Starters",price:"₹240",image:"https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=80"},
-{name:"Classic Gulab Jamun",category:"Dessert",price:"₹120",image:"https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"}
+{name:"Smoky Chicken Tikka",category:"Tandoor",price:"₹320",image:"./assets/images/smoky-chicken-tikka.jpg"},
+{name:"Royal Chicken Biryani",category:"Biryani",price:"₹280",image:"./assets/images/chicken-biryani-5.jpg"},
+{name:"Paneer Tikka",category:"Starters",price:"₹240",image:"./assets/images/paneer-tikka.jpg"},
+{name:"Classic Gulab Jamun",category:"Dessert",price:"₹120",image:"./assets/images/gulab-jamun.jpg"},
 ];
 document.addEventListener("DOMContentLoaded",()=>{
 const el=document.getElementById("featured-menu");if(!el)return;

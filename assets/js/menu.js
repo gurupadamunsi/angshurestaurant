@@ -1,7 +1,7 @@
 const menuData=[
 {category:"Starters",items:[
 ["Crispy Corn Chaat","Sweet corn, herbs and light spices","₹180","https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"],
-["Paneer Tikka","Charred cottage cheese, peppers and onion","₹240","https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=80"],
+["Paneer Tikka","Charred cottage cheese, peppers and onion","₹240","./assets/images/paneer-tikka.jpg"],
 ["Chicken Seekh Kebab","Minced chicken, herbs and house spices","₹280","https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=80"]
 
 ]},
